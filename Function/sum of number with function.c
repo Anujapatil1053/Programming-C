@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include<conio.h>
+#include <conio.h>
 
 int Sum_Of_Number(int);
 int main()
 {
-  int No=0;
+  int No = 0;
   
   printf("\n Enter Any Number =>");
   scanf("%d",&No);
@@ -18,9 +18,9 @@ int main()
 
 int Sum_Of_Number(Num)
 {
-  int Sum=0, Dig=0;
+  int Sum = 0, Dig = 0;
   
-  while(Num!=0)
+  while( Num != 0)
   {
     Dig = Num%10;
     Num = Num/10;
