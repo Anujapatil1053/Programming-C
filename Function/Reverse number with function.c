@@ -4,7 +4,7 @@
 int Reverse_Number(int);
 int main()
 {
-  int No=0;
+  int No = 0;
   
   printf("\n Enter Any Number =>");
   scanf("%d",&No);
@@ -17,13 +17,13 @@ int main()
 
 int Reverse_Number(Num)  
 {
-  int Rev=0, Dig=0;
+  int Rev = 0, Dig = 0;
   
    while(Num!=0)
   {
-    Dig=Num%10;
-    Num=Num/10;
-    Rev=(Rev*10)+Dig;
+    Dig = Num%10;
+    Num = Num/10;
+    Rev = (Rev*10)+Dig;
   }
   
   
