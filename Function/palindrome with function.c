@@ -5,7 +5,7 @@ int Palindrome(int);
 
 int main()
 {
-  int No=0;
+  int No = 0;
   
   printf("\n Enter Any Number =>");
   scanf("%d",&No);
@@ -16,14 +16,14 @@ int main()
 }
 int Palindrome(int Num)
 {
-  int Rev=0, Dig=0,No =0;
+  int Rev = 0, Dig = 0,No = 0;
   
   No = Num;
-  while(No>0)
+  while( No>0 )
   {
-    Dig=No%10;
-    Rev=(Rev*10)+Dig;
-    No=No/10;
+    Dig = No%10;
+    Rev = (Rev*10)+Dig;
+    No = No/10;
   }
   if(Num == Rev)
   {
