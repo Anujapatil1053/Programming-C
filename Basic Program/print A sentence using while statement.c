@@ -3,13 +3,16 @@
 
 int main()
 {
-  int N=0;
-  while(N<5)
+  int N = 0;
+  
+  while ( N < 5 )
   {
-    printf("\n INDIA");
+    printf( " \n INDIA" );
     N++;
   }
-  printf("\n\nProcess Finish");
+  printf( "\n \n Process Finish" );
+  
   getch();
+  
   return 0;
 }
