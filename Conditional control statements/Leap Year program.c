@@ -5,20 +5,21 @@ int main()
 {
       int year = 0;
 
-      printf("\n\n Enter Any Year");
-      scanf("%d",&year);
+      printf( " \n \n Enter Any Year" );
+      scanf( "%d",&year );
   
-      if(year % 4 == 0)
+      if( year % 4 == 0 )
       {
-           printf("\n The Year is Leap Year");
+           printf( " \n The Year is Leap Year" );
       }
    
       else
       {
-           printf("\n The Year is Not Leap Year");
+           printf( " \n The Year is Not Leap Year" );
       }
 
        getch();
+      
        clrscr();
 }
 
