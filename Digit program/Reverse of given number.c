@@ -7,12 +7,12 @@ int main()
         int No = 0, Temp = 0, Dig = 0, Rev = 0; 
         
         Up:
-            printf("\n Enter Any Positive Number => ");
-            scanf("%d",&No);
+            printf( " \n Enter Any Positive Number => " );
+            scanf( "%d",&No );
             
-            if(No <= 0)
+            if ( No <= 0 )
             {
-                    printf("\n\n Enter Positive Integral Value \n\n");
+                    printf( " \n \n Enter Positive Integral Value \n\n" );
                     goto Up;
             }
             
@@ -27,8 +27,9 @@ int main()
                     Temp = Temp / 10;
             }
             
-            printf("\n Reverse Of Given Number Is => %d",Rev);
+            printf( " \n Reverse Of Given Number Is => %d",Rev );
             
             getch();
+        
             return 0;
 }
