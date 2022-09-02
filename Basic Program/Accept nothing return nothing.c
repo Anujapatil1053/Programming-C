@@ -14,12 +14,12 @@
  }
  void sum()
  {
-         int No1=0, No2=0, Sum=0;
+         int No1 = 0, No2 = 0, Sum = 0;
 
-         printf("\n Enter A Two Number ");
-         scanf("%d%d",&No1,&No2,Sum);
+         printf( " \n Enter A Two Number " );
+         scanf( "%d%d",&No1,&No2,Sum );
 
-         Sum=No1+No2;
+         Sum = No1 + No2;
 
-         printf("\n Addition of two Number %d+%d =%d ",No1, No2, Sum );
+         printf( " \n Addition of two Number %d + %d = %d ",No1, No2, Sum );
  }
