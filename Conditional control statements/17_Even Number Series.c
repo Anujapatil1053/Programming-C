@@ -24,8 +24,6 @@ int main()
          }
 
          printf("\n\t=============*******=============\n");
-         
-         printf("\n\t\t Thanks !!!\n");
 
          getch();
          return 0;
