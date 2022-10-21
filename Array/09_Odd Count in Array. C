@@ -24,8 +24,6 @@ int main()
 
         printf("\n\n The Count Of Odd Numbers in Given Array = %d",O_Cnt);
 
-      
-
         getch();
         return 0;
 }
