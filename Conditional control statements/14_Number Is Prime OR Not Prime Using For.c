@@ -40,7 +40,6 @@ int main()
 
          printf("\n\n\t==============***********=================");
          
-         printf("\n\n\t\t Thanks !!!\n");
 
          getch();
          return 0;
