@@ -4,7 +4,7 @@
 
 int main()
 {
-                          int Arr[5] = {};
+                           intArr[5] = {};
 
                           printf(" \n Value of 101 Element = %d ",Arr[0] );
 
