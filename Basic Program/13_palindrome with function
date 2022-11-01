@@ -34,8 +34,8 @@ int Palindrome( int Num )
   {
     printf( " \n Given Number is %d not palindrome",Num );
   }
-  getch();
   
-  return;
+  getch();
+  return 0;
   
 }
