@@ -31,7 +31,6 @@ int main()
  printf("\n percentage : 0.2f",std1.per);
  printf("\n Grade  : %c",std1.Grade);
  
-  
   getch();
   return 0;
 }
