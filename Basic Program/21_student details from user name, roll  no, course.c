@@ -29,6 +29,5 @@ int main()
                           printf( "\n Enter a city name=%d \n",city );
 
                           getch();
-  
                           return 0;
 }
