@@ -18,7 +18,7 @@ int main()
                goto Up;
          }
 
-         printf("\n\t Cube Of %d = %d",Num,Num*Num*Num);
+         printf("\n\t Cube Of %d = %d",Num,Num * Num * Num);
 
          getch();
          return 0;
