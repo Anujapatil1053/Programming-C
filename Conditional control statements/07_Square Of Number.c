@@ -7,6 +7,7 @@ int main()
          int Num = 0;
 
          Up:
+         
          printf("\n\t Enter Positive Integer Number = ");
          scanf("%d",&Num);
 
