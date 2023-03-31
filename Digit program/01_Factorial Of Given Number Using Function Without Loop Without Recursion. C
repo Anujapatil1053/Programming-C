@@ -15,7 +15,6 @@ int main()
   printf ( " \n Factorial Of Given Number %d Is = %ld ",No, Factorial ( No ));
   
   getch();
-  
   return 0;
 }
 
