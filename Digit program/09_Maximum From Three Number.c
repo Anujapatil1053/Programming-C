@@ -23,8 +23,7 @@ int main()
             else
             {
                         printf("\n\n All The Three Numbers %d %d And %d Are Equal.",N1,N2,N3);
-            }
-            
+            } 
             getch();
             return 0;
             
