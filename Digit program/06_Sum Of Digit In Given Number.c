@@ -23,6 +23,5 @@ int main()
   printf("\n Sum Of Digit In Given Number Is  %d = %d ",No,Dsum);
   
   getch();
-  
   return 0;
 }
