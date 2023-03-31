@@ -25,7 +25,6 @@ int main()
          {
                printf("\n\t %d is Maximum",Num2);
          }
-
          getch();
          return 0;
 }
