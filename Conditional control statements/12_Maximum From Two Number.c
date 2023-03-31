@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 //Compiler version gcc  6.3.0
 
@@ -12,7 +13,7 @@ int main()
          printf("\n Enter Second Integer Number = ");
          scanf("%d",&Num2);
 
-         if(Num1==Num2)
+         if(Num1 == Num2)
          {
                printf("\n\t Both Numbers Are Equal");
          }
