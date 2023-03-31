@@ -5,7 +5,7 @@ int main()
 {
       int iNo1 = 1, iNo2 = 0, iNo3 = 0, Cnt = 0;
       
-      printf(" \n Enter A Number => ");
+      printf("\n Enter A Number => ");
       scanf(" %d ",&Cnt );
       
       while ( Cnt > 0 )
