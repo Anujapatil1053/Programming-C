@@ -18,7 +18,7 @@ int main()
         return 0;
 }
 
- long int Factorial ( int Num )
+ long int Factorial( int Num )
 {
         long int Fac = 1;
 
