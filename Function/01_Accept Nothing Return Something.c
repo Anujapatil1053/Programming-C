@@ -22,7 +22,7 @@ int Add()
 
                   Dsum = N1 + N2;
 
-                  printf("\n Addition of%d+%d=%d",N1,N2,Dsum );
+                  printf("\n Addition of %d + %d = %d",N1,N2,Dsum );
 
                   getch();
   
