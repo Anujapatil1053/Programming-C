@@ -20,5 +20,5 @@
 
              Sum = No1 + No2;
 
-             printf("\n Addition of two Number %d+%d =%d ",No1, No2, Sum );
+             printf("\n Addition of two Number %d + %d = %d ",No1, No2, Sum );
  }
