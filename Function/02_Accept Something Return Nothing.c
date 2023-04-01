@@ -25,7 +25,7 @@ void Sum(  int Num1, int Num2 )
 
         Dsum = Num1 + Num2;
 
-        printf( " \n Addition of %d+%d=%d",Num1,Num2,Dsum );
+        printf( " \n Addition of %d + %d = %d",Num1,Num2,Dsum );
 
         getch();
   
