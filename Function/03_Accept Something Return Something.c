@@ -15,7 +15,7 @@ int main()
 
               Dsum = Sum(No1, No2);
 
-              printf("\n Addition of %d+%d=%d",No1,No2,Dsum);
+              printf("\n Addition of %d + %d = %d",No1,No2,Dsum);
 
               getch();
               return 0;
