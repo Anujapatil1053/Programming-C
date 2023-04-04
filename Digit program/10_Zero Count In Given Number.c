@@ -13,19 +13,22 @@ int main()
         if(No <= 0)
         {
                printf("\n Invalid Number. Please Enter Positive Integer Number.");
+                
                getch();
+                
                system("cls");
                goto Up;
         }
 
         Temp = No;
+        
         while(Temp > 0)
         {
                 Dig = Temp % 10;
 
                 if(Dig == 0)
                 {
-                        ZCnt++;
+                      ZCnt++;
                 }
                 Temp = Temp / 10;
         }
