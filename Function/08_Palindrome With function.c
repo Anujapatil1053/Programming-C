@@ -7,7 +7,7 @@ int main()
 {
         int No = 0;
 
-        printf("\n Enter Any Number =>");
+        printf("\n Enter Any Number \n");
         scanf("%d",&No);
 
         Palindrome(No);
@@ -24,7 +24,7 @@ int Palindrome(int Num)
         {
               Dig = No % 10;
           
-              Rev = ( Rev * 10 ) + Dig;
+              Rev = (Rev * 10) + Dig;
           
               No = No / 10;
         }
@@ -36,6 +36,7 @@ int Palindrome(int Num)
         {
             printf("\n Given Number is %d not palindrome",Num);
         }
+
         getch();
 
         return;
