@@ -8,8 +8,8 @@ int main()
 {
         int No = 0;
 
-        printf (" \n Enter A Number To Find It's Factorial : ");
-        scanf ( " %d ",&No );
+        printf ("\n Enter A Number To Find It's Factorial : ");
+        scanf (" %d ",&No );
 
         printf ( " \n Factorial Of Given Number %d Is = %ld.",No, Factorial ( No ));
 
